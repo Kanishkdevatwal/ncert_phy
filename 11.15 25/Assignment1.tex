@@ -66,7 +66,17 @@ Enemy submarine(observer) is approaching the SONAR(source), So
 \begin{equation}
 Vrel=V+V_e
 \end{equation}
+Wave equation of SONAR is given as:\\
+\begin{equation}
+y=A\sin(2\pi*ft+-\frac{2\pi}{\lambda}x)
+\end{equation}
 As we know,
+\begin{equation}
+v=\frac{\omega}{k}
+\end{equation}
+$$v=\frac{2\pi*f}{2\pi/\lambda}$$
+So,
+
 \begin{equation}
 \lambda=\frac{V}{f}
 \end{equation}
@@ -122,21 +132,23 @@ where A is amplitude of wave generated.
 
 \textbf{Input Table:}\\
 \\
-\begin{tabular}{|c|c|}
+\begin{tabular}{|c|c|c|}
    \hline
-   f & f''\\
+   Parameter & Value & Description\\
    \hline
-   30kHz & 34.44kHz\\
+   40kHz & 45.93kHz & $f=40kHz, f''=45.93kHz$\\
    \hline
-   20kHz & 22.96kHz\\
+   30kHz & 34.44kHz & $f=30kHz, f''=34.44kHz$\\
    \hline
-   55kHz & 63.14kHz\\
+   20kHz & 22.96kHz & $f=20kHz, f''=22.96kHz$\\
    \hline
-   29kHz & 33.29kHz\\
+   55kHz & 63.14kHz& $f=55kHz, f''=63.14kHz$\\
    \hline
-   60kHz & 68.88kHz\\
+   29kHz & 33.29kHz& $f=29kHz, f''=33.29kHz$\\
    \hline
-   65kHz & 74.62kHz\\
+   60kHz & 68.88kHz& $f=60kHz, f''=68.88kHz$\\
+   \hline
+   65kHz & 74.62kHz& $f=25kHz, f''=74.62kHz$\\
    \hline
 \end{tabular}
 
